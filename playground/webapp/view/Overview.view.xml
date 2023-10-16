@@ -1,0 +1,18 @@
+<mvc:View
+    controllerName="de.rsham.ui5.playground.controller.Overview"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+        <content>
+            <Button
+                id="btnHello"
+                text="Hello"
+            />
+        </content>
+    </Page>
+</mvc:View>
